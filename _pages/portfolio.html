@@ -7,9 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
+{% include gallery.html folder="gallery" %}
 
 {% for post in site.portfolio %}
   {% include archive-single.html %}
 {% endfor %}
 
-{% include gallery.html folder="gallery" %}
