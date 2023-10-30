@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Katarina C. Poole | Researcher in Auditory Perception"
+title: "Katarina C. Poole: Researcher in Auditory Perception"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
