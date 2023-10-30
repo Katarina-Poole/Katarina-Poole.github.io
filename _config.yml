@@ -5,6 +5,9 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+
+# If I want to add galleres do this https://dmnfarrell.github.io/software/jekyll-galleries
+
 # Site Settings
 locale                   : "en-US"
 title                    : "Katarina C. Poole | Researcher in Auditory Perception"
@@ -81,7 +84,7 @@ analytics:
 # Site Author
 author:
   name             : "Katarina C. Poole"
-  avatar           : "profile.png"
+  avatar           : "bio-photo.jpg"
   bio              : "Currently a Research Associate in Immersive Audio at Imperial College London"
   location         : "London, UK"
   employer         :
