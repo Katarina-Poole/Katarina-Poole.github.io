@@ -52,6 +52,11 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+# Gallery
+imagesurl                : "Katarina-Poole.github.io/gallery/"
+thumbsurl                : "Katarina-Poole.github.io/thumbs/"
+
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
