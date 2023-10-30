@@ -7,34 +7,36 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+# Education
+| University                          | Year      |Degree                                                             |
+| --------                            | ------        | ------------------------------------------------------------ |
+| University College London           | 2018 - 2023   | **Ph.D. in Auditory Neuroscience** - UCL Ear Institute <p> Supervisors: Professor Jennifer Bizley and Professor Maria Chait.<br> Thesis title: How does the brain extract       acoustic patterns? A behavioural and neural study |
+| University College London           | 2016 - 2017   | **MSc in Neuroscience** - Distinction                          |
+| Imperial College London             | 2012 - 2016   | **BSc in Biochemistry with Management** - Upper Second Class Honours|
+| The Sixth Form College Farnborough  | 2010 - 2012   | A2 Maths (A*),  A2 Chemistry (A),  A2 Biology (A),  A2 Music Technology (A),  AS Psychology (A) |
+<br>
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+# Employment
+| Employer                | Year              | Job Description |
+| --------                |-----              | ---------------|
+| Imperial College London | 2023 - present    | **Research Associate in Immersive Audio** - Audio Experience Design Group (Dr Lorenzo Picinali) <br> -  Immersive and Spatial Audio |
+| University of Oxford    | 2017 - 2018       | Research Assistant - Oxford Auditory Neuroscience Group (Professor Andrew King) <br> -  Investigating the role of behavioural training in promoting neural adaptation to hearing loss
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Psychophysics/psychoacoustics
+* Electrophysiology
+  * In vivo extracellular electrophysiology
+  * Electroencaphalography (EEG)
+* Optogenetics
+* Histology
+
+# Extracurricular
+* BAS 2023 Organising committee
+* LAP Challenge organising committee
 
 Publications
 ======
