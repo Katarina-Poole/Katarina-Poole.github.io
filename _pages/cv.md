@@ -8,14 +8,40 @@ redirect_from:
 ---
 
 # Education
-| University                          | Year      |Degree                                                             |
-| --------                            | ------        | ------------------------------------------------------------ |
-| University College London           | 2018 - 2023   | **Ph.D. in Auditory Neuroscience** - UCL Ear Institute  Supervisors: Professor Jennifer Bizley and Professor Maria Chait. Thesis title: How does the brain extract acoustic patterns? A behavioural and neural study |
-| University College London           | 2016 - 2017   | **MSc in Neuroscience** - Distinction                          |
-| Imperial College London             | 2012 - 2016   | **BSc in Biochemistry with Management** - Upper Second Class Honours|
-| The Sixth Form College Farnborough  | 2010 - 2012   | A2 Maths (A*),  A2 Chemistry (A),  A2 Biology (A),  A2 Music Technology (A),  AS Psychology (A) |
 
+<table>
+  <tr>
+    <th>University</th>
+    <th>Year</th>
+    <th>Degree</th>
+  </tr>
+  <tr>
+    <td>University College London </td>
+    <td>2018 - 2023</td>
+    <td><b>Ph.D. in Auditory Neuroscience</b> - UCL Ear Institute <br> Supervisors: Professor Jennifer Bizley and Professor Maria Chait. <br> Thesis title: How does the brain extract acoustic patterns? A behavioural and neural study </td>
+  </tr>
+    <tr>
+    <td>University College London </td>
+    <td>2016 - 2017</td>
+    <td><b>MSc in Neuroscience</b> - Distinction </td>
+  </tr>
+    </tr>
+    <tr>
+    <td>Imperial College London  </td>
+    <td>2012 - 2016</td>
+    <td><b>BSc in Biochemistry with Management</b> - Upper Second Class Honours </td>
+  </tr>
+    </tr>
+    </tr>
+    <tr>
+    <td>The Sixth Form College Farnborough   </td>
+    <td>2010 - 2012 </td>
+    <td><b>BSc in Biochemistry with Management</b> <br> A2 Maths (A*),  A2 Chemistry (A),  A2 Biology (A),  A2 Music Technology (A),  AS Psychology (A)</td>
+  </tr>
 
+</table>
+
+<br>
 
 # Employment
 | Employer                | Year              | Job Description |
