@@ -15,7 +15,7 @@ import glob
 import getorg
 from geopy import Nominatim
 
-g = glob.glob("*.md")
+g = glob.glob("C:\GithubRepos\Katarina-Poole.github.io\_talks\*.md")
 
 
 geocoder = Nominatim(user_agent="KP_web")
@@ -40,7 +40,7 @@ for file in g:
 
 
 m = getorg.orgmap.create_map_obj()
-getorg.orgmap.output_html_cluster_map(location_dict, folder_name="../talkmap", hashed_usernames=False)
+getorg.orgmap.output_html_cluster_map(location_dict, folder_name="C:/GithubRepos/Katarina-Poole.github.io/talkmap/talkmap", hashed_usernames=False)
 
 
 
