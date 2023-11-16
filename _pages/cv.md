@@ -50,20 +50,15 @@ redirect_from:
     <td>2023 - present</td>
     <td><b>Research Associate in Immersive Audio</b> - Dyson School of Design Engineering <br> Audio Experience Design Group (Dr Lorenzo Picinali) <br> -  Immersive and Spatial Audio </td>
   </tr>
-    <tr>
+  <tr>
     <td>University of Oxford </td>
     <td>2017 - 2019</td>
     <td><b>Research Assistant</b> - Oxford Auditory Neuroscience Group (Professor Andrew King) <br> - Investigating the role of behavioural training in promoting neural adaptation to hearing loss</td>
   </tr>
-    </tr>
-    <tr>
+  <tr>
     <td>Freelance  </td>
     <td>2012 - 2018</td>
     <td><b>Sound Engineer</b> <br> - FOH engineer for bands and events <br> - Consultation on hire and sound design of live shows and theatre</td>
-  </tr>
-    </tr>
-    </tr>
-    <tr>
   </tr>
 
 </table>
