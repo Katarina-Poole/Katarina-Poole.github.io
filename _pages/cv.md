@@ -39,6 +39,8 @@ redirect_from:
 
 <br>
 
+# Employment history
+
 <table>
   <tr>
     <th>Employer</th>
@@ -63,6 +65,9 @@ redirect_from:
 
 </table>
 
+# Awards
+- **Barbara Chapman Young Investigator Award** ($1000) Ferret Brain Meeting. _2021_ 
+- **AEB Colours** - Outstanding contribution to arts and entertainment. Imperial College London. _2016_
 
 Skills
 ======
@@ -84,13 +89,16 @@ Skills
 * Spatial and immersive audio
 * VR
 
-# Awards
-- **Barbara Chapman Young Investigator Award** ($1000) Ferret Brain Meeting. _2021_ 
-- **AEB Colours** - Outstanding contribution to arts and entertainment. Imperial College London. _2016_
 
 # Extracurricular
-* BAS 2023 Organising committee
-* LAP Challenge organising committee
+* LAP Challenge organising committee (current)
+* BAS 2023 organising committee
+* Event Manager for Pint of Science London (2020) and Pint of Science Oxford (2018).
+* Live Tour Sound Engineer for the band Anavae (2017).
+* Committee Technical Officer for UCL Live Music Society (2016 - 2017).
+* Sound Designer for the theatre productions of Birdland (2016) and Rhapsody (2017).
+* Sound Engineer for the Bloomsbury Sessions (2016 - 2017).
+* Sound Engineer and Crew for Imperial Drama Society and Imperial Jazz and Rock Society (2015 - 2016).
 
 Publications
 ======
@@ -98,11 +106,6 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
   
 Teaching
 ======
@@ -110,6 +113,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
