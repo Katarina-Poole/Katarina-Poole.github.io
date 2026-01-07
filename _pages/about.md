@@ -44,6 +44,30 @@ Through the [**SONICOM Project**](https://www.sonicom.eu/), I lead the evaluatio
 ---
 <div style="clear: both;"></div>
 
+# Methodology & Expertise
+My research employs a multi-scale approach to auditory neuroscience, spanning from cellular circuits to human behavior.
+
+* **Human Neuroimaging & Physiology:** High-density EEG, Pupillometry (as a metric of cognitive load/effort), and Microsaccades.
+* **Immersive Technologies:** Virtual Reality (Unity), gaze-tracking, and individualized spatial audio (HRTF) validation.
+* **Systems Neuroscience (In Vivo):** Chronic extracellular electrophysiology (single-unit and LFP) and optogenetic manipulation of cortical and hippocampal circuits.
+* **Computational Modeling:** Bayesian observer models, statistical regularity detection models (e.g., D-REX), and development of numerical audio metrics.
+* **Experimental Design:** Psychophysics (human and animal), speech-in-noise testing, and spatial release from masking.
+
+<div style="display: flex; justify-content: space-between; gap: 10px; margin-bottom: 20px;">
+  <div style="flex: 1;">
+    <img src="gallery/opto.jpg" alt="In vivo Electrophysiology" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 8px;">
+  </div>
+  <div style="flex: 1;">
+    <img src="gallery/eeg-me-photo.jpg" alt="EEG" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 8px;">
+  </div>
+  <div style="flex: 1;">
+    <img src="gallery/analysis-plot.jpg" alt="Pupillometry and Modeling" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 8px;">
+  </div>
+</div>
+
+---
+<div style="clear: both;"></div>
+
 # Open Research & Resources
 I am a strong advocate for Open Science and have developed several tools used by the auditory research community:
 * [**Spatial Audio Metrics (SAM) Toolbox**](https://github.com/Katarina-Poole/Spatial-Audio-Metrics) - Metrics for evaluating spatialized audio.
