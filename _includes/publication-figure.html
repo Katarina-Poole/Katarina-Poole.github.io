@@ -1,0 +1,15 @@
+{% comment %}
+  Sets `pub_fig` to this paper's figure. Order of preference:
+  1. `thumbnail:` in the paper's front matter
+  2. any image in /images/publications/ named after the paper's file (e.g. 2026-ferret-regularity.png)
+  3. the placeholder
+{% endcomment %}
+{% assign pub_fig = post.thumbnail %}
+{% unless pub_fig %}
+  {% assign pub_key = post.slug | prepend: "images/publications/" | append: "." %}
+  {% for f in site.static_files %}
+    {% if f.path contains pub_key %}{% assign pub_fig = f.path | remove_first: site.source | prepend: "/" | replace: "//", "/" %}{% break %}{% endif %}
+  {% endfor %}
+{% endunless %}
+{% assign pub_is_placeholder = false %}
+{% unless pub_fig %}{% assign pub_fig = "/images/publications/placeholder.svg" %}{% assign pub_is_placeholder = true %}{% endunless %}

@@ -1,0 +1,29 @@
+{% comment %}One publication in the list. Expects `post` (a publications document).{% endcomment %}
+{% include base_path %}
+{% assign authors = post.authors | replace: "Poole, K.C.", "<strong>Poole, K.C.</strong>" | replace: "Poole, K. C.", "<strong>Poole, K. C.</strong>" %}
+{% include publication-figure.html %}
+<li class="pub pub--thumb">
+  <a class="pub__thumb{% if pub_is_placeholder %} pub__thumb--placeholder{% endif %}" href="{{ post.paperurl }}" tabindex="-1" aria-hidden="true">
+    <img src="{{ base_path }}{{ pub_fig }}" alt="" loading="lazy">
+  </a>
+  <div class="pub__body">
+    <p class="pub__title"><a href="{{ post.paperurl }}">{{ post.title }}</a></p>
+    <p class="pub__authors">{{ authors }}</p>
+    <p class="pub__venue">
+      {% if post.status == "review" %}<span class="pub__status">Under review</span>{% if post.venue != "" %} · <em>{{ post.venue }}</em>{% endif %}
+      {% else %}{% if post.venue != "" %}<em>{{ post.venue }}</em>{% if post.details %}, {{ post.details }}{% endif %}{% endif %}{% endif %}
+    </p>
+    <div class="pub__meta">
+      <span class="pub__tag pub__tag--{{ post.kind | downcase }}">{{ post.kind }}</span>
+      {% if post.role %}<span class="pub__tag pub__tag--role">{{ post.role }}</span>{% endif %}
+      <a class="pub__link" href="{{ post.paperurl }}">{% if post.link_label %}{{ post.link_label }}{% elsif post.paperurl contains "arXiv" %}arXiv{% elsif post.paperurl contains "doi.org" %}DOI{% else %}Link{% endif %} <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+      {% if post.note %}<span class="pub__note">{{ post.note }}</span>{% endif %}
+    </div>
+    {% if post.summary %}
+    <details class="pub__summary">
+      <summary>In brief</summary>
+      <p>{{ post.summary }}</p>
+    </details>
+    {% endif %}
+  </div>
+</li>

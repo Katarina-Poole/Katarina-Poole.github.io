@@ -1,0 +1,46 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% include base_path %}
+{% assign pubs = site.publications | sort: "order" %}
+
+<p class="pubs__intro">
+  My work spans auditory neuroscience and spatial audio engineering. Full and up-to-date lists are on
+  <a href="{{ site.author.googlescholar }}">Google Scholar</a> and <a href="{{ site.author.orcid }}">ORCID</a>.
+</p>
+
+<h2 class="pubs__heading">Selected work</h2>
+<div class="pubs__selected">
+{% for post in pubs %}{% if post.selected %}
+  <article class="pub-card">
+    {% include publication-figure.html %}
+    <a class="pub-card__img" href="{{ post.paperurl }}" tabindex="-1" aria-hidden="true"><img src="{{ base_path }}{{ pub_fig }}" alt="" loading="lazy"></a>
+    {% assign y = post.year | append: "" %}<p class="pub-card__kicker">{{ post.venue }}{% unless post.venue contains y %} · {{ post.year }}{% endunless %}</p>
+    <h3 class="pub-card__title"><a href="{{ post.paperurl }}">{{ post.title }}</a></h3>
+    <p class="pub-card__blurb">{{ post.blurb }}</p>
+    <a class="pub__link" href="{{ post.paperurl }}">Read the paper <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+  </article>
+{% endif %}{% endfor %}
+</div>
+
+<h2 class="pubs__heading">Under review</h2>
+<ul class="pubs__list">
+{% for post in pubs %}{% if post.status == "review" %}
+  {% include publication-entry.html %}
+{% endif %}{% endfor %}
+</ul>
+
+{% assign published = pubs | where: "status", "published" %}
+{% assign by_year = published | group_by: "year" %}
+{% for group in by_year %}
+<h2 class="pubs__heading pubs__heading--year">{{ group.name }}</h2>
+<ul class="pubs__list">
+  {% for post in group.items %}
+    {% include publication-entry.html %}
+  {% endfor %}
+</ul>
+{% endfor %}
